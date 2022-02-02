@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_OUTDATED_NO_LOCKFILE",
+    "err": {
+      "name": "Error",
+      "message": "No lockfile in this directory. Run `pnpm install` to generate one.",
+      "code": "ERR_PNPM_OUTDATED_NO_LOCKFILE",
+      "stack": "Error: No lockfile in this directory. Run `pnpm install` to generate one.\n    at Object.outdated [as default] (/home/aaron/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:117399:15)\n    at /home/aaron/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:117514:34\n    at Array.map (<anonymous>)\n    at outdatedDepsOfProjects (/home/aaron/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:117512:31)\n    at async Promise.all (index 0)\n    at async Object.outdatedDepsOfProjects (/home/aaron/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:117500:33)\n    at async interactiveUpdate (/home/aaron/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:117897:38)\n    at async /home/aaron/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125614:20\n    at async run (/home/aaron/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125589:34)\n    at async runPnpm (/home/aaron/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125799:5)"
+    }
+  }
+}
